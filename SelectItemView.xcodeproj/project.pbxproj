@@ -17,6 +17,9 @@
 		701CD03B1EEE95D6004E8005 /* YHSelectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 701CD0361EEE95D6004E8005 /* YHSelectButton.m */; };
 		701CD03C1EEE95D6004E8005 /* YHSelectButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 701CD0371EEE95D6004E8005 /* YHSelectButton.xib */; };
 		701CD03D1EEE95D6004E8005 /* YHSelectDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 701CD0391EEE95D6004E8005 /* YHSelectDropView.m */; };
+		701CD0401EEE9FF6004E8005 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 701CD03F1EEE9FF6004E8005 /* UIView+frame.m */; };
+		701CD0431EEF8536004E8005 /* NSObject+Caculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 701CD0421EEF8536004E8005 /* NSObject+Caculate.m */; };
+		701CD0461EEF854C004E8005 /* MakeCaculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 701CD0451EEF854C004E8005 /* MakeCaculate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,12 @@
 		701CD0371EEE95D6004E8005 /* YHSelectButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YHSelectButton.xib; sourceTree = "<group>"; };
 		701CD0381EEE95D6004E8005 /* YHSelectDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHSelectDropView.h; sourceTree = "<group>"; };
 		701CD0391EEE95D6004E8005 /* YHSelectDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHSelectDropView.m; sourceTree = "<group>"; };
+		701CD03E1EEE9FF6004E8005 /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		701CD03F1EEE9FF6004E8005 /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
+		701CD0411EEF8536004E8005 /* NSObject+Caculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Caculate.h"; sourceTree = "<group>"; };
+		701CD0421EEF8536004E8005 /* NSObject+Caculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Caculate.m"; sourceTree = "<group>"; };
+		701CD0441EEF854C004E8005 /* MakeCaculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeCaculate.h; sourceTree = "<group>"; };
+		701CD0451EEF854C004E8005 /* MakeCaculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeCaculate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,12 @@
 				701CD02A1EEE95B9004E8005 /* LaunchScreen.storyboard */,
 				701CD02D1EEE95B9004E8005 /* Info.plist */,
 				701CD01C1EEE95B9004E8005 /* Supporting Files */,
+				701CD03E1EEE9FF6004E8005 /* UIView+frame.h */,
+				701CD03F1EEE9FF6004E8005 /* UIView+frame.m */,
+				701CD0411EEF8536004E8005 /* NSObject+Caculate.h */,
+				701CD0421EEF8536004E8005 /* NSObject+Caculate.m */,
+				701CD0441EEF854C004E8005 /* MakeCaculate.h */,
+				701CD0451EEF854C004E8005 /* MakeCaculate.m */,
 			);
 			path = SelectItemView;
 			sourceTree = "<group>";
@@ -173,7 +188,10 @@
 				701CD03D1EEE95D6004E8005 /* YHSelectDropView.m in Sources */,
 				701CD03A1EEE95D6004E8005 /* YHSelectItemView.m in Sources */,
 				701CD03B1EEE95D6004E8005 /* YHSelectButton.m in Sources */,
+				701CD0461EEF854C004E8005 /* MakeCaculate.m in Sources */,
+				701CD0431EEF8536004E8005 /* NSObject+Caculate.m in Sources */,
 				701CD0241EEE95B9004E8005 /* ViewController.m in Sources */,
+				701CD0401EEE9FF6004E8005 /* UIView+frame.m in Sources */,
 				701CD0211EEE95B9004E8005 /* AppDelegate.m in Sources */,
 				701CD01E1EEE95B9004E8005 /* main.m in Sources */,
 			);

@@ -42,13 +42,13 @@
     
     self.backgroundColor = [[UIColor lightGrayColor] colorWithAlphaComponent:0.4];
     
-    self.tableView.backgroundColor = [[UIColor customColorNameWithString:@"f9f9f9"] colorWithAlphaComponent:0.9];
-    if (self.delegate && [self.delegate respondsToSelector:@selector(backgroundColorForScrollRectForSelectDropView:)]) {
-        UIColor * backColor = [self.delegate backgroundColorForScrollRectForSelectDropView:self];
-        if (backColor) {
-            self.tableView.backgroundColor = backColor;
-        }
-    }
+//    self.tableView.backgroundColor = [[UIColor customColorNameWithString:@"f9f9f9"] colorWithAlphaComponent:0.9];
+//    if (self.delegate && [self.delegate respondsToSelector:@selector(backgroundColorForScrollRectForSelectDropView:)]) {
+//        UIColor * backColor = [self.delegate backgroundColorForScrollRectForSelectDropView:self];
+//        if (backColor) {
+//            self.tableView.backgroundColor = backColor;
+//        }
+//    }
 }
 
 - (UITableView *)tableView {
