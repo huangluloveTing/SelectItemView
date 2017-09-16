@@ -12,7 +12,8 @@ Pod::Spec.new do |s|
   #
   #  These will help people to find your library, and whilst it
   #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-
+  #  summary should be tweet-length, and the description more in depth.
+  #
 
   s.name         = "SelectItemView"
   s.version      = "0.0.1"
@@ -51,10 +52,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "lu.huang@biz-united.com.cn" => "" }
-  # Or just: s.author    = "lu.huang@biz-united.com.cn"
-  # s.authors            = { "lu.huang@biz-united.com.cn" => "" }
-  # s.social_media_url   = "http://twitter.com/lu.huang@biz-united.com.cn"
+  s.author             = { "huanglu" => "lu.huang@biz-united.com.cn" }
+  # Or just: s.author    = "huanglu"
+  # s.authors            = { "huanglu" => "lu.huang@biz-united.com.cn" }
+  # s.social_media_url   = "http://twitter.com/huanglu"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
